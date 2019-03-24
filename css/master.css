@@ -5,22 +5,33 @@ body{
    font-family: 'SimplePrintRegular';
    font-weight: normal;
    font-style: normal;
+   padding: 12px;
+}
+head {
+   font-size: 140%;
+   text-transform: capitalize;
+   word-spacing: 1em;
 }
 h2{
     font-family: Arial, verdana, sans-serif;
-    font-size: 150%;
+    font-size: 120%;
+    text-decoration: underline;
 }
 p{
     background-color: grey;
+    line-height: 1.4em;
+    text-align: justify;
 }
 tbody{
     font-size: 80%;
+    background-color: #ffffff;
 }
 div#jsContent{
-
+    font-stretch: semi-expanded;
+    text-align: center;
 }
 div#greeting{
-
+    text-align: justify;
 }
 thead#column-head{
     font-size: 110%;
@@ -28,7 +39,36 @@ thead#column-head{
 th{
     font-weight: bold;
     font-size: 100%;
+    margin: 0px;
+    text-align: center;
+}
+.column {
+    text-transform: full-width;
+}
+td {
+    text-align: right;
+    margin: 0px;
+    text-shadow: -1px -1px 1px #666666;
+}
+.row {
+    text-transform: none;
+}
+li {
+    list-style-type: circle;
+    list-style-position: outside;
+}
+a:link {
+    color: darkgreen;
+}
+a:visited {
+    color: black;
+}
+a:active {
+    color: blue;
 }
 .comparison{
-
+    border: 1px dotted;
+    padding: 1.3em;
+    border-bottom: 1.5px solid #999;
+    border-top: 1px solid #111111;
 }

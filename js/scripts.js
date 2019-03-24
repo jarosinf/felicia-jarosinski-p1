@@ -1,6 +1,6 @@
 var user;
 var salutation;
-var message = ', here is your CTA!';
+var message = ', compare the specs below!';
 var greeting = salutation + user;
 
 var el = document.getElementById('greeting');
